@@ -1,13 +1,16 @@
 /* general */
 body {
   margin: 0;
-  background: black;
+  background: blue;
   font-family: "Helvetica Neue", sans-serif;
+}
+html, body, #map {
+  width: 100%;
+  height: 100%;
 }
 
 /* map */
 #map {
-  width: 100%;
 }
 #map g.group {
   opacity: 0.5;
