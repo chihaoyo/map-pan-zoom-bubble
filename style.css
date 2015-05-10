@@ -1,0 +1,36 @@
+/* general */
+body {
+  margin: 0;
+  background: black;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* map */
+#map {
+  width: 100%;
+}
+#map g.group {
+  opacity: 0.5;
+  transition: opacity .3s ease;
+}
+
+/* bubble */
+#bubble {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  background: lime;
+  transform-origin: 0 0;
+}
+#bubble.show {
+  display: block;
+}
+#bubble img {
+  width: 100%;
+}
+#bubble p {
+  color: blue;
+  margin: 0.5em;
+}
