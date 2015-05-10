@@ -1,4 +1,4 @@
 MAP PAN & ZOOM & bubble
 =====
 
-Exercise created during WebProject.
+Exercise project created during last week of WebProject 2015.
